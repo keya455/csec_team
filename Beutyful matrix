@@ -1,0 +1,7 @@
+for i in range(5):
+  raw = list(map(int,input().split()))
+  if 1 in raw:
+    c = raw.index(1)
+    ans = abs(i-2) + abs(c - 2)
+    print(ans)
+    break
